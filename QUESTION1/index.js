@@ -1,3 +1,4 @@
+// car class with properties
 class Car {
   constructor(make, model, year, color) {
     this.make = make;
@@ -6,6 +7,7 @@ class Car {
     this.color = color;
   }
 
+  // car class methods
   getMake() {
     return this.make;
   }
@@ -39,8 +41,10 @@ class Car {
   }
 }
 
+// car class instantiating
 let newCar = new Car("Toyota", "Camry", "2020", "Silver");
 
+// testing output
 console.log("");
 console.log("OUTPUT:");
 console.log("--------------------------");

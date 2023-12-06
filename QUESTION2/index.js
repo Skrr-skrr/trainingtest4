@@ -42,7 +42,7 @@ const adminUser = new User("adminUser", "adminPassword", "admin");
 const editorUser = new User("editorUser", "editorPassword", "editor");
 const viewerUser = new User("viewerUser", "viewerPassword", "viewer");
 
-// accessManager object instanciating
+// accessManager object instantiating
 const accessManager = new AccessManager();
 
 // testing access scenarios using grantAccess method
@@ -55,6 +55,7 @@ accessManager.grantAccess(viewerUser, "create");
 console.log(" ");
 
 // testing output
+console.log("");
 console.log("CONFIRMING SECURE PASSWORD ENTRY...");
 console.log("--------------------------------");
 console.log("USER 1: ", adminUser.verifyPassword("adminPassword"));
