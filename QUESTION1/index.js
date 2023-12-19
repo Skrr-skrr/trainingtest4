@@ -42,7 +42,7 @@ class Car {
 }
 
 // car class instantiating
-let newCar = new Car("Toyota", "Camry", "2020", "Silver");
+let newCar = new Car("Toyota", "Camry", 2020, "Silver");
 
 // testing output
 console.log("");
